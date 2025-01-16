@@ -1,0 +1,392 @@
+2024-09-27 00:04:52.175 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-27 00:04:52.259 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-27 00:04:52.260 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-27 00:04:52.260 +02:00 [INF] Hosting environment: Development
+2024-09-27 00:04:52.261 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-27 00:04:52.725 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-27 00:04:52.849 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 125.9631ms
+2024-09-27 00:04:53.107 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-27 00:04:53.239 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 132.1256ms
+2024-09-27 00:05:00.829 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - null null
+2024-09-27 00:05:00.846 +02:00 [INF] Handling request for GET /api/Moderation/unmoderated with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-27 00:05:00.881 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-27 00:05:00.906 +02:00 [INF] Route matched with {action = "GetUnmoderatedDocuments", controller = "Moderation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUnmoderatedDocuments() on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-27 00:05:02.299 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Document_Model.Models.Documents, Share2Teach, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-27 00:05:02.325 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach) in 1415.7863ms
+2024-09-27 00:05:02.325 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-27 00:05:03.569 +02:00 [INF] Analytics event sent successfully for API Request - GET /api/Moderation/unmoderated
+2024-09-27 00:05:03.569 +02:00 [INF] Google Analytics event sent for GET /api/Moderation/unmoderated with status 200
+2024-09-27 00:05:03.570 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - 200 null application/json; charset=utf-8 2741.3007ms
+2024-09-27 00:05:44.835 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f5b2a4b42451c9af314527 - application/json 52
+2024-09-27 00:05:44.838 +02:00 [INF] Handling request for PUT /api/Moderation/update/66f5b2a4b42451c9af314527 with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-27 00:05:44.848 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-27 00:05:44.853 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-27 00:05:45.016 +02:00 [INF] Analytics event sent successfully for API Request - PUT /api/Moderation/update/66f5b2a4b42451c9af314527
+2024-09-27 00:05:45.016 +02:00 [INF] Google Analytics event sent for PUT /api/Moderation/update/66f5b2a4b42451c9af314527 with status 401
+2024-09-27 00:05:45.017 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f5b2a4b42451c9af314527 - 401 0 null 181.5946ms
+2024-09-27 00:06:15.109 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/Authenticate/login - application/json 70
+2024-09-27 00:06:15.110 +02:00 [INF] Handling request for POST /api/Authenticate/login with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-27 00:06:15.111 +02:00 [INF] Executing endpoint 'DatabaseConnection.Controllers.AuthenticateController.Login (Share2Teach)'
+2024-09-27 00:06:15.130 +02:00 [INF] Route matched with {action = "Login", controller = "Authenticate"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(UserLoginDto) on controller DatabaseConnection.Controllers.AuthenticateController (Share2Teach).
+2024-09-27 00:06:15.605 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-27 00:06:15.607 +02:00 [INF] Executed action DatabaseConnection.Controllers.AuthenticateController.Login (Share2Teach) in 476.7782ms
+2024-09-27 00:06:15.607 +02:00 [INF] Executed endpoint 'DatabaseConnection.Controllers.AuthenticateController.Login (Share2Teach)'
+2024-09-27 00:06:15.771 +02:00 [INF] Analytics event sent successfully for API Request - POST /api/Authenticate/login
+2024-09-27 00:06:15.771 +02:00 [INF] Google Analytics event sent for POST /api/Authenticate/login with status 200
+2024-09-27 00:06:15.771 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/Authenticate/login - 200 null application/json; charset=utf-8 661.7404ms
+2024-09-27 00:06:39.929 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f5b2a4b42451c9af314527 - application/json 52
+2024-09-27 00:06:39.929 +02:00 [INF] Handling request for PUT /api/Moderation/update/66f5b2a4b42451c9af314527 with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-27 00:06:39.991 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.UpdateModerationStatus (Share2Teach)'
+2024-09-27 00:06:39.996 +02:00 [INF] Route matched with {action = "UpdateModerationStatus", controller = "Moderation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateModerationStatus(System.String, Moderation.Models.UpdateModerationRequest) on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-27 00:06:40.188 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-27 00:06:40.188 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.UpdateModerationStatus (Share2Teach) in 191.5691ms
+2024-09-27 00:06:40.188 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.UpdateModerationStatus (Share2Teach)'
+2024-09-27 00:06:40.361 +02:00 [INF] Analytics event sent successfully for API Request - PUT /api/Moderation/update/66f5b2a4b42451c9af314527
+2024-09-27 00:06:40.361 +02:00 [INF] Google Analytics event sent for PUT /api/Moderation/update/66f5b2a4b42451c9af314527 with status 200
+2024-09-27 00:06:40.362 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f5b2a4b42451c9af314527 - 200 null text/plain; charset=utf-8 432.8847ms
+2024-09-27 00:06:45.581 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Moderation/current-user - null null
+2024-09-27 00:06:45.582 +02:00 [INF] Handling request for GET /api/Moderation/current-user with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-27 00:06:45.585 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.GetCurrentUser (Share2Teach)'
+2024-09-27 00:06:45.586 +02:00 [INF] Route matched with {action = "GetCurrentUser", controller = "Moderation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCurrentUser() on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-27 00:06:45.587 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-27 00:06:45.588 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.GetCurrentUser (Share2Teach) in 1.7371ms
+2024-09-27 00:06:45.588 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.GetCurrentUser (Share2Teach)'
+2024-09-27 00:06:45.754 +02:00 [INF] Analytics event sent successfully for API Request - GET /api/Moderation/current-user
+2024-09-27 00:06:45.754 +02:00 [INF] Google Analytics event sent for GET /api/Moderation/current-user with status 200
+2024-09-27 00:06:45.754 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Moderation/current-user - 200 null application/json; charset=utf-8 173.0064ms
+2024-09-27 03:40:04.536 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-27 03:40:04.704 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-27 03:40:04.707 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-27 03:40:04.707 +02:00 [INF] Hosting environment: Development
+2024-09-27 03:40:04.707 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-27 03:40:06.347 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-27 03:40:06.803 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 464.4499ms
+2024-09-27 03:40:07.821 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-27 03:40:08.516 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 695.2528ms
+2024-09-27 03:40:17.652 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - null null
+2024-09-27 03:40:17.681 +02:00 [INF] Handling request for GET /api/Moderation/unmoderated with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-27 03:40:17.754 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-27 03:40:17.797 +02:00 [INF] Route matched with {action = "GetUnmoderatedDocuments", controller = "Moderation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUnmoderatedDocuments() on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-27 03:40:19.592 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Document_Model.Models.Documents, Share2Teach, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-27 03:40:19.671 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach) in 1858.3915ms
+2024-09-27 03:40:19.672 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-27 03:40:21.004 +02:00 [INF] Analytics event sent successfully for API Request - GET /api/Moderation/unmoderated
+2024-09-27 03:40:21.005 +02:00 [INF] Google Analytics event sent for GET /api/Moderation/unmoderated with status 200
+2024-09-27 03:40:21.008 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - 200 null application/json; charset=utf-8 3356.6356ms
+2024-09-27 17:58:23.295 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-27 17:58:23.421 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-27 17:58:23.423 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-27 17:58:23.423 +02:00 [INF] Hosting environment: Development
+2024-09-27 17:58:23.423 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-27 17:58:23.761 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-27 17:58:23.870 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 110.4803ms
+2024-09-27 17:58:24.077 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-27 17:58:24.255 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 177.5271ms
+2024-09-27 18:03:17.725 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-27 18:03:17.875 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-27 18:03:17.877 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-27 18:03:17.877 +02:00 [INF] Hosting environment: Development
+2024-09-27 18:03:17.877 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-27 18:03:18.760 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-27 18:03:18.928 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 170.9663ms
+2024-09-27 18:03:19.273 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-27 18:03:19.599 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 325.8755ms
+2024-09-27 18:03:42.315 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - null null
+2024-09-27 18:03:42.353 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-27 18:03:42.379 +02:00 [INF] Route matched with {action = "GetUnmoderatedDocuments", controller = "Moderation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUnmoderatedDocuments() on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-27 18:03:44.142 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Document_Model.Models.Documents, Share2Teach, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-27 18:03:44.172 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach) in 1790.4715ms
+2024-09-27 18:03:44.173 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-27 18:03:44.174 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - 200 null application/json; charset=utf-8 1858.3701ms
+2024-09-27 18:04:42.018 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f5d514d72e3db9b4aaa1c0 - application/json 67
+2024-09-27 18:04:42.055 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-27 18:04:42.060 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-27 18:04:42.061 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f5d514d72e3db9b4aaa1c0 - 401 0 null 45.5872ms
+2024-09-27 18:20:50.445 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-27 18:20:50.557 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-27 18:20:50.558 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-27 18:20:50.559 +02:00 [INF] Hosting environment: Development
+2024-09-27 18:20:50.559 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-27 18:20:50.940 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-27 18:20:51.049 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 110.7452ms
+2024-09-27 18:20:51.340 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-27 18:20:51.488 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 147.6262ms
+2024-09-27 18:21:18.200 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - null null
+2024-09-27 18:21:18.237 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-27 18:21:18.260 +02:00 [INF] Route matched with {action = "GetUnmoderatedDocuments", controller = "Moderation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUnmoderatedDocuments() on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-27 18:21:19.194 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Document_Model.Models.Documents, Share2Teach, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-27 18:21:19.230 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach) in 967.2756ms
+2024-09-27 18:21:19.231 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-27 18:21:19.232 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - 200 null application/json; charset=utf-8 1032.3224ms
+2024-09-27 18:21:43.207 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f5d514d72e3db9b4aaa1c0 - application/json 67
+2024-09-27 18:21:43.216 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-27 18:21:43.223 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-27 18:21:43.223 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f5d514d72e3db9b4aaa1c0 - 401 0 null 15.9889ms
+2024-09-27 18:22:32.771 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/Authenticate/login - multipart/form-data; boundary=----WebKitFormBoundary3k0KAsT3uvBMF65X 266
+2024-09-27 18:22:32.773 +02:00 [INF] Executing endpoint 'DatabaseConnection.Controllers.AuthenticateController.Login (Share2Teach)'
+2024-09-27 18:22:32.787 +02:00 [INF] Route matched with {action = "Login", controller = "Authenticate"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(UserLoginDto) on controller DatabaseConnection.Controllers.AuthenticateController (Share2Teach).
+2024-09-27 18:22:33.373 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-27 18:22:33.375 +02:00 [INF] Executed action DatabaseConnection.Controllers.AuthenticateController.Login (Share2Teach) in 587.5725ms
+2024-09-27 18:22:33.375 +02:00 [INF] Executed endpoint 'DatabaseConnection.Controllers.AuthenticateController.Login (Share2Teach)'
+2024-09-27 18:22:33.376 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/Authenticate/login - 200 null application/json; charset=utf-8 604.284ms
+2024-09-27 18:23:02.989 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f5d514d72e3db9b4aaa1c0 - application/json 67
+2024-09-27 18:23:03.039 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.UpdateModerationStatus (Share2Teach)'
+2024-09-27 18:23:03.045 +02:00 [INF] Route matched with {action = "UpdateModerationStatus", controller = "Moderation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateModerationStatus(System.String, Moderation.Models.UpdateModerationRequest) on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-27 18:23:03.642 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-27 18:23:03.642 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.UpdateModerationStatus (Share2Teach) in 597.4013ms
+2024-09-27 18:23:03.643 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.UpdateModerationStatus (Share2Teach)'
+2024-09-27 18:23:03.643 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f5d514d72e3db9b4aaa1c0 - 200 null text/plain; charset=utf-8 653.9268ms
+2024-09-27 18:23:10.038 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Moderation/current-user - null null
+2024-09-27 18:23:10.051 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.GetCurrentUser (Share2Teach)'
+2024-09-27 18:23:10.052 +02:00 [INF] Route matched with {action = "GetCurrentUser", controller = "Moderation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCurrentUser() on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-27 18:23:10.054 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-27 18:23:10.055 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.GetCurrentUser (Share2Teach) in 2.4121ms
+2024-09-27 18:23:10.055 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.GetCurrentUser (Share2Teach)'
+2024-09-27 18:23:10.055 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Moderation/current-user - 200 null application/json; charset=utf-8 17.0839ms
+2024-09-27 18:23:26.339 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-27 18:23:26.379 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.2243ms
+2024-09-27 18:23:27.631 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-27 18:23:27.634 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 3.1401ms
+2024-09-27 18:23:27.690 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-27 18:23:27.713 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.0595ms
+2024-09-27 18:33:59.644 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-27 18:33:59.752 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-27 18:33:59.754 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-27 18:33:59.754 +02:00 [INF] Hosting environment: Development
+2024-09-27 18:33:59.755 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-27 18:34:00.076 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-27 18:34:00.180 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 105.1425ms
+2024-09-27 18:34:00.549 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-27 18:34:00.732 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 182.9576ms
+2024-09-27 18:40:45.633 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-27 18:40:45.757 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-27 18:40:45.759 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-27 18:40:45.760 +02:00 [INF] Hosting environment: Development
+2024-09-27 18:40:45.760 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-27 18:40:46.465 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-27 18:40:46.795 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 333.9412ms
+2024-09-27 18:40:47.084 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-27 18:40:47.323 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 238.2399ms
+2024-09-27 18:41:04.617 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - null null
+2024-09-27 18:41:04.663 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-27 18:41:04.689 +02:00 [INF] Route matched with {action = "GetUnmoderatedDocuments", controller = "Moderation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUnmoderatedDocuments() on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-27 18:41:06.086 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Document_Model.Models.Documents, Share2Teach, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-27 18:41:06.109 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach) in 1416.5461ms
+2024-09-27 18:41:06.109 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-27 18:41:06.110 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - 200 null application/json; charset=utf-8 1492.9037ms
+2024-09-27 18:51:53.907 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-27 18:51:54.034 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-27 18:51:54.036 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-27 18:51:54.037 +02:00 [INF] Hosting environment: Development
+2024-09-27 18:51:54.037 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-27 18:51:54.731 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-27 18:51:54.924 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 193.6719ms
+2024-09-27 18:51:55.182 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-27 18:51:55.440 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 258.2119ms
+2024-09-27 19:50:34.387 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-27 19:50:34.511 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-27 19:50:34.512 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-27 19:50:34.513 +02:00 [INF] Hosting environment: Development
+2024-09-27 19:50:34.513 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-27 19:50:35.224 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-27 19:50:35.469 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 245.4794ms
+2024-09-27 19:50:35.824 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-27 19:50:35.998 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 173.4342ms
+2024-09-27 19:50:46.202 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - null null
+2024-09-27 19:50:46.246 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-27 19:50:46.261 +02:00 [INF] Route matched with {action = "GetUnmoderatedDocuments", controller = "Moderation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUnmoderatedDocuments() on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-27 19:50:47.583 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Document_Model.Models.Documents, Share2Teach, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-27 19:50:47.610 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach) in 1346.1622ms
+2024-09-27 19:50:47.611 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-27 19:50:47.612 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - 200 null application/json; charset=utf-8 1409.4924ms
+2024-09-27 19:52:28.148 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-27 19:52:28.284 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-27 19:52:28.286 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-27 19:52:28.286 +02:00 [INF] Hosting environment: Development
+2024-09-27 19:52:28.286 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-27 19:52:28.547 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-27 19:52:28.729 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 185.0565ms
+2024-09-27 19:52:29.281 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-27 19:52:29.439 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 157.4782ms
+2024-09-27 19:53:04.590 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - null null
+2024-09-27 19:53:04.627 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-27 19:53:04.648 +02:00 [INF] Route matched with {action = "GetUnmoderatedDocuments", controller = "Moderation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUnmoderatedDocuments() on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-27 19:53:05.777 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Document_Model.Models.Documents, Share2Teach, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-27 19:53:05.808 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach) in 1157.5471ms
+2024-09-27 19:53:05.809 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-27 19:53:05.810 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - 200 null application/json; charset=utf-8 1219.883ms
+2024-09-27 19:55:33.229 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f58df66703c6a9c8108704 - application/json 67
+2024-09-27 19:55:33.265 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-09-27 19:55:33.269 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-09-27 19:55:33.270 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f58df66703c6a9c8108704 - 401 0 null 42.9686ms
+2024-09-27 19:57:01.246 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/Authenticate/login - multipart/form-data; boundary=----WebKitFormBoundaryBFzsFRpps99izkJ7 266
+2024-09-27 19:57:01.253 +02:00 [INF] Executing endpoint 'DatabaseConnection.Controllers.AuthenticateController.Login (Share2Teach)'
+2024-09-27 19:57:01.319 +02:00 [INF] Route matched with {action = "Login", controller = "Authenticate"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(UserLoginDto) on controller DatabaseConnection.Controllers.AuthenticateController (Share2Teach).
+2024-09-27 19:57:02.045 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-27 19:57:02.052 +02:00 [INF] Executed action DatabaseConnection.Controllers.AuthenticateController.Login (Share2Teach) in 733.3921ms
+2024-09-27 19:57:02.052 +02:00 [INF] Executed endpoint 'DatabaseConnection.Controllers.AuthenticateController.Login (Share2Teach)'
+2024-09-27 19:57:02.053 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/Authenticate/login - 200 null application/json; charset=utf-8 806.1866ms
+2024-09-27 19:57:25.283 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f58df66703c6a9c8108704 - application/json 67
+2024-09-27 19:57:25.363 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.UpdateModerationStatus (Share2Teach)'
+2024-09-27 19:57:25.368 +02:00 [INF] Route matched with {action = "UpdateModerationStatus", controller = "Moderation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateModerationStatus(System.String, Moderation.Models.UpdateModerationRequest) on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-27 19:57:25.543 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-27 19:57:25.543 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.UpdateModerationStatus (Share2Teach) in 174.9235ms
+2024-09-27 19:57:25.543 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.UpdateModerationStatus (Share2Teach)'
+2024-09-27 19:57:25.543 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f58df66703c6a9c8108704 - 200 null text/plain; charset=utf-8 260.5104ms
+2024-09-27 19:58:37.752 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Moderation/current-user - null null
+2024-09-27 19:58:37.779 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.GetCurrentUser (Share2Teach)'
+2024-09-27 19:58:37.797 +02:00 [INF] Route matched with {action = "GetCurrentUser", controller = "Moderation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCurrentUser() on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-27 19:58:37.799 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-09-27 19:58:37.803 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.GetCurrentUser (Share2Teach) in 5.9575ms
+2024-09-27 19:58:37.804 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.GetCurrentUser (Share2Teach)'
+2024-09-27 19:58:37.804 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Moderation/current-user - 200 null application/json; charset=utf-8 53.3076ms
+2024-09-27 21:11:56.173 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-27 21:11:56.329 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-27 21:11:56.331 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-27 21:11:56.331 +02:00 [INF] Hosting environment: Development
+2024-09-27 21:11:56.332 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-27 21:11:56.661 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-27 21:11:56.866 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 206.1429ms
+2024-09-27 21:11:57.081 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-27 21:11:57.240 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 159.0214ms
+2024-09-27 21:23:51.742 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/Analytics/send-event - application/json 87
+2024-09-27 21:23:51.862 +02:00 [INF] Executing endpoint 'Share2Teach.Controllers.AnalyticsController.SendEvent (Share2Teach)'
+2024-09-27 21:23:51.911 +02:00 [INF] Route matched with {action = "SendEvent", controller = "Analytics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendEvent(Share2Teach.Controllers.AnalyticsEventRequest) on controller Share2Teach.Controllers.AnalyticsController (Share2Teach).
+2024-09-27 21:23:51.921 +02:00 [INF] Executed action Share2Teach.Controllers.AnalyticsController.SendEvent (Share2Teach) in 7.2021ms
+2024-09-27 21:23:51.924 +02:00 [INF] Executed endpoint 'Share2Teach.Controllers.AnalyticsController.SendEvent (Share2Teach)'
+2024-09-27 21:23:51.927 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Share2Teach.Analytics.GoogleAnalyticsService' while attempting to activate 'Share2Teach.Controllers.AnalyticsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-27 21:23:51.965 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/Analytics/send-event - 500 null text/plain; charset=utf-8 227.5924ms
+2024-09-27 21:25:39.457 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/Analytics/send-event - application/json 87
+2024-09-27 21:25:39.487 +02:00 [INF] Executing endpoint 'Share2Teach.Controllers.AnalyticsController.SendEvent (Share2Teach)'
+2024-09-27 21:25:39.497 +02:00 [INF] Route matched with {action = "SendEvent", controller = "Analytics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendEvent(Share2Teach.Controllers.AnalyticsEventRequest) on controller Share2Teach.Controllers.AnalyticsController (Share2Teach).
+2024-09-27 21:25:39.501 +02:00 [INF] Executed action Share2Teach.Controllers.AnalyticsController.SendEvent (Share2Teach) in 4.2461ms
+2024-09-27 21:25:39.502 +02:00 [INF] Executed endpoint 'Share2Teach.Controllers.AnalyticsController.SendEvent (Share2Teach)'
+2024-09-27 21:25:39.503 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Share2Teach.Analytics.GoogleAnalyticsService' while attempting to activate 'Share2Teach.Controllers.AnalyticsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-27 21:25:39.530 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/Analytics/send-event - 500 null text/plain; charset=utf-8 74.6827ms
+2024-09-27 21:27:06.309 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-27 21:27:06.426 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-27 21:27:06.428 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-27 21:27:06.428 +02:00 [INF] Hosting environment: Development
+2024-09-27 21:27:06.428 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-27 21:27:06.885 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-27 21:27:07.088 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 205.6697ms
+2024-09-27 21:27:07.441 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-27 21:27:07.741 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 300.5513ms
+2024-09-27 21:27:38.288 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/Analytics/send-event - application/json 87
+2024-09-27 21:27:38.336 +02:00 [INF] Executing endpoint 'Share2Teach.Controllers.AnalyticsController.SendEvent (Share2Teach)'
+2024-09-27 21:27:38.357 +02:00 [INF] Route matched with {action = "SendEvent", controller = "Analytics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendEvent(Share2Teach.Controllers.AnalyticsEventRequest) on controller Share2Teach.Controllers.AnalyticsController (Share2Teach).
+2024-09-27 21:27:38.366 +02:00 [INF] Executed action Share2Teach.Controllers.AnalyticsController.SendEvent (Share2Teach) in 5.9843ms
+2024-09-27 21:27:38.368 +02:00 [INF] Executed endpoint 'Share2Teach.Controllers.AnalyticsController.SendEvent (Share2Teach)'
+2024-09-27 21:27:38.370 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Share2Teach.Analytics.GoogleAnalyticsService' while attempting to activate 'Share2Teach.Controllers.AnalyticsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-27 21:27:38.396 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/Analytics/send-event - 500 null text/plain; charset=utf-8 107.975ms
+2024-09-27 21:32:07.235 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-27 21:32:07.411 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-27 21:32:07.413 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-27 21:32:07.414 +02:00 [INF] Hosting environment: Development
+2024-09-27 21:32:07.414 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-27 21:32:07.854 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-27 21:32:08.194 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 343.4031ms
+2024-09-27 21:32:08.536 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-27 21:32:08.801 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 265.0451ms
+2024-09-27 21:32:39.480 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/Analytics/send-event - application/json 88
+2024-09-27 21:32:39.532 +02:00 [INF] Executing endpoint 'Share2Teach.Controllers.AnalyticsController.SendEvent (Share2Teach)'
+2024-09-27 21:32:39.569 +02:00 [INF] Route matched with {action = "SendEvent", controller = "Analytics"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendEvent(Share2Teach.Controllers.AnalyticsEventRequest) on controller Share2Teach.Controllers.AnalyticsController (Share2Teach).
+2024-09-27 21:32:40.955 +02:00 [INF] Analytics event sent successfully for EventAPI - UserLogin
+2024-09-27 21:32:40.966 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-27 21:32:40.971 +02:00 [INF] Executed action Share2Teach.Controllers.AnalyticsController.SendEvent (Share2Teach) in 1397.8856ms
+2024-09-27 21:32:40.971 +02:00 [INF] Executed endpoint 'Share2Teach.Controllers.AnalyticsController.SendEvent (Share2Teach)'
+2024-09-27 21:32:40.973 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/Analytics/send-event - 200 null text/plain; charset=utf-8 1493.0555ms
+2024-09-27 23:05:19.483 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-27 23:05:19.882 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-27 23:05:19.887 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-27 23:05:19.888 +02:00 [INF] Hosting environment: Development
+2024-09-27 23:05:19.888 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-27 23:05:20.861 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-27 23:05:21.838 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 982.7456ms
+2024-09-27 23:05:22.640 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-27 23:05:23.384 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 743.7154ms
+2024-09-27 23:12:03.088 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/FAQ/list - null null
+2024-09-27 23:12:03.268 +02:00 [INF] Executing endpoint 'FAQApp.Controllers.FAQController.GetAllFAQs (Share2Teach)'
+2024-09-27 23:12:03.324 +02:00 [INF] Route matched with {action = "GetAllFAQs", controller = "FAQ"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFAQs() on controller FAQApp.Controllers.FAQController (Share2Teach).
+2024-09-27 23:12:08.585 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType3`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Share2Teach, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-27 23:12:08.648 +02:00 [INF] Executed action FAQApp.Controllers.FAQController.GetAllFAQs (Share2Teach) in 5314.0486ms
+2024-09-27 23:12:08.649 +02:00 [INF] Executed endpoint 'FAQApp.Controllers.FAQController.GetAllFAQs (Share2Teach)'
+2024-09-27 23:12:08.652 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/FAQ/list - 200 null application/json; charset=utf-8 5568.5627ms
+2024-09-27 23:14:31.874 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/FAQ/add - application/json 76
+2024-09-27 23:14:31.926 +02:00 [INF] Executing endpoint 'FAQApp.Controllers.FAQController.AddFAQ (Share2Teach)'
+2024-09-27 23:14:31.991 +02:00 [INF] Route matched with {action = "AddFAQ", controller = "FAQ"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddFAQ(FAQApp.Controllers.FAQInputModel) on controller FAQApp.Controllers.FAQController (Share2Teach).
+2024-09-27 23:14:32.674 +02:00 [INF] Added FAQ: What is your favourite ice cream? at "2024-09-27T21:14:32.6726097Z".
+2024-09-27 23:14:32.677 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-27 23:14:32.679 +02:00 [INF] Executed action FAQApp.Controllers.FAQController.AddFAQ (Share2Teach) in 687.4271ms
+2024-09-27 23:14:32.680 +02:00 [INF] Executed endpoint 'FAQApp.Controllers.FAQController.AddFAQ (Share2Teach)'
+2024-09-27 23:14:32.680 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/FAQ/add - 200 null text/plain; charset=utf-8 809.3605ms
+2024-09-27 23:15:35.849 +02:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5281/api/FAQ/delete?id=66eedabfa7314be016859d0b - null null
+2024-09-27 23:15:35.868 +02:00 [INF] Executing endpoint 'FAQApp.Controllers.FAQController.DeleteFAQById (Share2Teach)'
+2024-09-27 23:15:35.879 +02:00 [INF] Route matched with {action = "DeleteFAQById", controller = "FAQ"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteFAQById(System.String) on controller FAQApp.Controllers.FAQController (Share2Teach).
+2024-09-27 23:15:36.096 +02:00 [INF] Deleted FAQ with id: 66eedabfa7314be016859d0b at "2024-09-27T21:15:36.0961546Z".
+2024-09-27 23:15:36.096 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-27 23:15:36.097 +02:00 [INF] Executed action FAQApp.Controllers.FAQController.DeleteFAQById (Share2Teach) in 216.8951ms
+2024-09-27 23:15:36.097 +02:00 [INF] Executed endpoint 'FAQApp.Controllers.FAQController.DeleteFAQById (Share2Teach)'
+2024-09-27 23:15:36.098 +02:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5281/api/FAQ/delete?id=66eedabfa7314be016859d0b - 200 null text/plain; charset=utf-8 249.0301ms
+2024-09-27 23:17:47.327 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5281/api/FAQ/update?id=66ef46991c043d6925245cd1 - application/json 64
+2024-09-27 23:17:47.337 +02:00 [INF] Executing endpoint 'FAQApp.Controllers.FAQController.UpdateFAQById (Share2Teach)'
+2024-09-27 23:17:47.351 +02:00 [INF] Route matched with {action = "UpdateFAQById", controller = "FAQ"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateFAQById(System.String, FAQApp.Controllers.FAQInputModel) on controller FAQApp.Controllers.FAQController (Share2Teach).
+2024-09-27 23:17:47.626 +02:00 [INF] Updated FAQ with id: 66ef46991c043d6925245cd1 at "2024-09-27T21:17:47.6263568Z".
+2024-09-27 23:17:47.627 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-27 23:17:47.628 +02:00 [INF] Executed action FAQApp.Controllers.FAQController.UpdateFAQById (Share2Teach) in 274.9549ms
+2024-09-27 23:17:47.628 +02:00 [INF] Executed endpoint 'FAQApp.Controllers.FAQController.UpdateFAQById (Share2Teach)'
+2024-09-27 23:17:47.629 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5281/api/FAQ/update?id=66ef46991c043d6925245cd1 - 200 null text/plain; charset=utf-8 302.8676ms
+2024-09-27 23:30:32.285 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-27 23:30:32.585 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 307.585ms

@@ -1,0 +1,520 @@
+2024-09-24 00:03:29.493 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 00:03:29.631 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 00:03:29.635 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 00:03:29.637 +02:00 [INF] Hosting environment: Development
+2024-09-24 00:03:29.637 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 00:03:30.120 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 00:03:30.398 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 280.4583ms
+2024-09-24 00:03:30.761 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 00:03:31.083 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 321.8946ms
+2024-09-24 00:03:37.479 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Files - null null
+2024-09-24 00:03:37.505 +02:00 [INF] Handling request for GET /api/Files with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 00:03:37.558 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach)'
+2024-09-24 00:03:37.599 +02:00 [INF] Route matched with {action = "GetAllDocuments", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllDocuments() on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 00:03:38.973 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-09-24 00:03:38.977 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach) in 1374.5894ms
+2024-09-24 00:03:38.977 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach)'
+2024-09-24 00:03:40.242 +02:00 [INF] Analytics event sent successfully for API Request - GET /api/Files
+2024-09-24 00:03:40.242 +02:00 [INF] Google Analytics event sent for GET /api/Files with status 500
+2024-09-24 00:03:40.244 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Files - 500 null text/plain; charset=utf-8 2764.8695ms
+2024-09-24 00:06:53.585 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 00:06:53.725 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 00:06:53.728 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 00:06:53.729 +02:00 [INF] Hosting environment: Development
+2024-09-24 00:06:53.729 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 00:06:54.238 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 00:06:54.481 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 244.8705ms
+2024-09-24 00:06:54.756 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 00:06:55.102 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 345.735ms
+2024-09-24 00:07:04.035 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Files - null null
+2024-09-24 00:07:04.064 +02:00 [INF] Handling request for GET /api/Files with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 00:07:04.132 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach)'
+2024-09-24 00:07:04.168 +02:00 [INF] Route matched with {action = "GetAllDocuments", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllDocuments() on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 00:07:10.385 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-09-24 00:07:10.390 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach) in 6217.052ms
+2024-09-24 00:07:10.391 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach)'
+2024-09-24 00:07:11.664 +02:00 [INF] Analytics event sent successfully for API Request - GET /api/Files
+2024-09-24 00:07:11.664 +02:00 [INF] Google Analytics event sent for GET /api/Files with status 500
+2024-09-24 00:07:11.666 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Files - 500 null text/plain; charset=utf-8 7630.0859ms
+2024-09-24 00:11:53.723 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 00:11:53.868 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 00:11:53.871 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 00:11:53.873 +02:00 [INF] Hosting environment: Development
+2024-09-24 00:11:53.873 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 00:11:54.550 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 00:11:54.864 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 315.9757ms
+2024-09-24 00:11:55.266 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 00:11:55.828 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 561.9529ms
+2024-09-24 00:12:02.428 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Files - null null
+2024-09-24 00:12:02.450 +02:00 [INF] Handling request for GET /api/Files with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 00:12:02.563 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach)'
+2024-09-24 00:12:02.638 +02:00 [INF] Route matched with {action = "GetAllDocuments", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllDocuments() on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 00:12:04.414 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Document_Model.Models.Documents, Share2Teach, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-24 00:12:04.462 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach) in 1818.405ms
+2024-09-24 00:12:04.463 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach)'
+2024-09-24 00:12:05.751 +02:00 [INF] Analytics event sent successfully for API Request - GET /api/Files
+2024-09-24 00:12:05.751 +02:00 [INF] Google Analytics event sent for GET /api/Files with status 200
+2024-09-24 00:12:05.752 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Files - 200 null application/json; charset=utf-8 3324.2928ms
+2024-09-24 00:26:24.686 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 00:26:24.751 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 00:26:24.752 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 00:26:24.752 +02:00 [INF] Hosting environment: Development
+2024-09-24 00:26:24.752 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 00:26:25.365 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 00:26:25.623 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 260.0121ms
+2024-09-24 00:26:25.972 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 00:26:26.126 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 153.7654ms
+2024-09-24 00:26:34.754 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Files - null null
+2024-09-24 00:26:34.780 +02:00 [INF] Handling request for GET /api/Files with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 00:26:34.829 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach)'
+2024-09-24 00:26:34.870 +02:00 [INF] Route matched with {action = "GetAllDocuments", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllDocuments() on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 00:26:36.221 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-09-24 00:26:36.225 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach) in 1351.4615ms
+2024-09-24 00:26:36.225 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach)'
+2024-09-24 00:26:37.484 +02:00 [INF] Analytics event sent successfully for API Request - GET /api/Files
+2024-09-24 00:26:37.484 +02:00 [INF] Google Analytics event sent for GET /api/Files with status 500
+2024-09-24 00:26:37.486 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Files - 500 null text/plain; charset=utf-8 2731.7402ms
+2024-09-24 00:30:19.429 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 00:30:19.532 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 00:30:19.534 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 00:30:19.535 +02:00 [INF] Hosting environment: Development
+2024-09-24 00:30:19.536 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 00:30:20.123 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 00:30:20.404 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 282.751ms
+2024-09-24 00:30:20.648 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 00:30:20.913 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 265.5255ms
+2024-09-24 00:30:27.217 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Files - null null
+2024-09-24 00:30:27.237 +02:00 [INF] Handling request for GET /api/Files with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 00:30:27.288 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach)'
+2024-09-24 00:30:27.325 +02:00 [INF] Route matched with {action = "GetAllDocuments", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllDocuments() on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 00:30:28.494 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Document_Model.Models.Documents, Share2Teach, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-24 00:30:28.535 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach) in 1202.3808ms
+2024-09-24 00:30:28.536 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach)'
+2024-09-24 00:30:29.739 +02:00 [INF] Analytics event sent successfully for API Request - GET /api/Files
+2024-09-24 00:30:29.739 +02:00 [INF] Google Analytics event sent for GET /api/Files with status 200
+2024-09-24 00:30:29.741 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Files - 200 null application/json; charset=utf-8 2523.9922ms
+2024-09-24 00:32:08.771 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 00:32:08.868 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 00:32:08.870 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 00:32:08.870 +02:00 [INF] Hosting environment: Development
+2024-09-24 00:32:08.871 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 00:32:09.089 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 00:32:09.288 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 207.8437ms
+2024-09-24 00:32:09.509 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 00:32:09.707 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 197.4356ms
+2024-09-24 00:32:25.954 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Files - null null
+2024-09-24 00:32:25.981 +02:00 [INF] Handling request for GET /api/Files with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 00:32:26.024 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach)'
+2024-09-24 00:32:26.060 +02:00 [INF] Route matched with {action = "GetAllDocuments", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllDocuments() on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 00:32:27.326 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Document_Model.Models.Documents, Share2Teach, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-24 00:32:27.358 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach) in 1293.2643ms
+2024-09-24 00:32:27.358 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach)'
+2024-09-24 00:32:28.590 +02:00 [INF] Analytics event sent successfully for API Request - GET /api/Files
+2024-09-24 00:32:28.590 +02:00 [INF] Google Analytics event sent for GET /api/Files with status 200
+2024-09-24 00:32:28.592 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Files - 200 null application/json; charset=utf-8 2637.3054ms
+2024-09-24 00:40:20.911 +02:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5281/api/Files/66f1ecdb02fdf2d427501360 - null null
+2024-09-24 00:40:20.915 +02:00 [INF] Handling request for DELETE /api/Files/66f1ecdb02fdf2d427501360 with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 00:40:20.917 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.DeleteDocument (Share2Teach)'
+2024-09-24 00:40:20.930 +02:00 [INF] Route matched with {action = "DeleteDocument", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteDocument(System.String) on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 00:40:21.067 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-24 00:40:21.067 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.DeleteDocument (Share2Teach) in 137.3372ms
+2024-09-24 00:40:21.067 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.DeleteDocument (Share2Teach)'
+2024-09-24 00:40:22.213 +02:00 [INF] Analytics event sent successfully for API Request - DELETE /api/Files/66f1ecdb02fdf2d427501360
+2024-09-24 00:40:22.214 +02:00 [INF] Google Analytics event sent for DELETE /api/Files/66f1ecdb02fdf2d427501360 with status 200
+2024-09-24 00:40:22.214 +02:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5281/api/Files/66f1ecdb02fdf2d427501360 - 200 null text/plain; charset=utf-8 1302.5592ms
+2024-09-24 00:48:32.941 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 00:48:33.034 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 00:48:33.036 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 00:48:33.036 +02:00 [INF] Hosting environment: Development
+2024-09-24 00:48:33.036 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 00:48:33.770 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 00:48:34.018 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 254.1819ms
+2024-09-24 00:48:34.267 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 00:48:34.438 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 171.6691ms
+2024-09-24 00:49:36.790 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5281/api/Files/66d3a09a4ddfb71ae03ccfd2 - application/json 85
+2024-09-24 00:49:36.809 +02:00 [INF] Handling request for PUT /api/Files/66d3a09a4ddfb71ae03ccfd2 with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 00:49:36.843 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.UpdateDocument (Share2Teach)'
+2024-09-24 00:49:36.875 +02:00 [INF] Route matched with {action = "UpdateDocument", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateDocument(System.String, UpdateDocumentRequest) on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 00:49:37.932 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-24 00:49:37.937 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.UpdateDocument (Share2Teach) in 1058.9779ms
+2024-09-24 00:49:37.937 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.UpdateDocument (Share2Teach)'
+2024-09-24 00:49:39.160 +02:00 [INF] Analytics event sent successfully for API Request - PUT /api/Files/66d3a09a4ddfb71ae03ccfd2
+2024-09-24 00:49:39.160 +02:00 [INF] Google Analytics event sent for PUT /api/Files/66d3a09a4ddfb71ae03ccfd2 with status 200
+2024-09-24 00:49:39.162 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5281/api/Files/66d3a09a4ddfb71ae03ccfd2 - 200 null text/plain; charset=utf-8 2371.9577ms
+2024-09-24 00:54:54.913 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 00:54:55.006 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 00:54:55.008 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 00:54:55.008 +02:00 [INF] Hosting environment: Development
+2024-09-24 00:54:55.009 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 00:54:55.659 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 00:54:55.868 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 211.2644ms
+2024-09-24 00:54:56.187 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 00:54:56.616 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 428.775ms
+2024-09-24 00:56:19.554 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/Files/upload - multipart/form-data; boundary=----WebKitFormBoundaryAoiuXryMBUPfDRLB 929270
+2024-09-24 00:56:19.571 +02:00 [INF] Handling request for POST /api/Files/upload with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 00:56:19.612 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 00:56:19.645 +02:00 [INF] Route matched with {action = "UploadDocument", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadDocument(DocumentUploadRequest) on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 00:56:20.772 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-24 00:56:20.778 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach) in 1128.1128ms
+2024-09-24 00:56:20.780 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 00:56:22.021 +02:00 [INF] Analytics event sent successfully for API Request - POST /api/Files/upload
+2024-09-24 00:56:22.021 +02:00 [INF] Google Analytics event sent for POST /api/Files/upload with status 200
+2024-09-24 00:56:22.023 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/Files/upload - 200 null text/plain; charset=utf-8 2468.5687ms
+2024-09-24 00:57:44.293 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/Files/upload - multipart/form-data; boundary=----WebKitFormBoundaryICzhKSFe8RAy0vBE 12913063
+2024-09-24 00:57:44.295 +02:00 [INF] Handling request for POST /api/Files/upload with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 00:57:44.297 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 00:57:44.298 +02:00 [INF] Route matched with {action = "UploadDocument", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadDocument(DocumentUploadRequest) on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 00:57:44.460 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-24 00:57:44.460 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach) in 162.079ms
+2024-09-24 00:57:44.460 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 00:57:45.641 +02:00 [INF] Analytics event sent successfully for API Request - POST /api/Files/upload
+2024-09-24 00:57:45.641 +02:00 [INF] Google Analytics event sent for POST /api/Files/upload with status 200
+2024-09-24 00:57:45.644 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/Files/upload - 200 null text/plain; charset=utf-8 1351.4118ms
+2024-09-24 00:59:42.986 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 00:59:43.015 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 29.6449ms
+2024-09-24 01:00:25.310 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/Files/upload - multipart/form-data; boundary=----WebKitFormBoundary0L3gLMXuvgWO690c 70053
+2024-09-24 01:00:25.311 +02:00 [INF] Handling request for POST /api/Files/upload with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 01:00:25.313 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 01:00:25.314 +02:00 [INF] Route matched with {action = "UploadDocument", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadDocument(DocumentUploadRequest) on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 01:00:25.376 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-24 01:00:25.376 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach) in 62.1334ms
+2024-09-24 01:00:25.377 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 01:00:26.643 +02:00 [INF] Analytics event sent successfully for API Request - POST /api/Files/upload
+2024-09-24 01:00:26.643 +02:00 [INF] Google Analytics event sent for POST /api/Files/upload with status 200
+2024-09-24 01:00:26.643 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/Files/upload - 200 null text/plain; charset=utf-8 1333.0264ms
+2024-09-24 01:03:05.057 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/Files/upload - multipart/form-data; boundary=----WebKitFormBoundaryMV5QlCKkvGPCa5dx 20609
+2024-09-24 01:03:05.057 +02:00 [INF] Handling request for POST /api/Files/upload with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 01:03:05.058 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 01:03:05.058 +02:00 [INF] Route matched with {action = "UploadDocument", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadDocument(DocumentUploadRequest) on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 01:03:05.108 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-24 01:03:05.108 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach) in 50.1516ms
+2024-09-24 01:03:05.108 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 01:03:06.439 +02:00 [INF] Analytics event sent successfully for API Request - POST /api/Files/upload
+2024-09-24 01:03:06.439 +02:00 [INF] Google Analytics event sent for POST /api/Files/upload with status 200
+2024-09-24 01:03:06.440 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/Files/upload - 200 null text/plain; charset=utf-8 1382.5759ms
+2024-09-24 01:13:52.997 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 01:13:53.095 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 01:13:53.097 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 01:13:53.098 +02:00 [INF] Hosting environment: Development
+2024-09-24 01:13:53.098 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 01:13:54.135 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 01:13:54.566 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 434.7539ms
+2024-09-24 01:13:54.996 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 01:13:55.212 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 216.1062ms
+2024-09-24 01:15:03.552 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/Files/upload - multipart/form-data; boundary=----WebKitFormBoundaryPbk7We7ovwzdCO94 3434554
+2024-09-24 01:15:03.577 +02:00 [INF] Handling request for POST /api/Files/upload with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 01:15:03.620 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 01:15:03.654 +02:00 [INF] Route matched with {action = "UploadDocument", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadDocument(DocumentUploadRequest) on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 01:15:04.073 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-09-24 01:15:04.077 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach) in 420.1773ms
+2024-09-24 01:15:04.078 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 01:15:05.322 +02:00 [INF] Analytics event sent successfully for API Request - POST /api/Files/upload
+2024-09-24 01:15:05.323 +02:00 [INF] Google Analytics event sent for POST /api/Files/upload with status 400
+2024-09-24 01:15:05.328 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/Files/upload - 400 null text/plain; charset=utf-8 1776.337ms
+2024-09-24 01:29:29.657 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 01:29:29.835 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 01:29:29.837 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 01:29:29.838 +02:00 [INF] Hosting environment: Development
+2024-09-24 01:29:29.838 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 01:29:30.650 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 01:29:30.877 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 234.1763ms
+2024-09-24 01:29:31.155 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 01:29:31.407 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 252.565ms
+2024-09-24 01:30:21.796 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/Files/upload - multipart/form-data; boundary=----WebKitFormBoundaryjCgomEJpS2tuQdBG 2096384
+2024-09-24 01:30:21.813 +02:00 [INF] Handling request for POST /api/Files/upload with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 01:30:21.858 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 01:30:21.899 +02:00 [INF] Route matched with {action = "UploadDocument", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadDocument(DocumentUploadRequest) on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 01:30:22.268 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-09-24 01:30:22.271 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach) in 369.6088ms
+2024-09-24 01:30:22.271 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 01:30:23.503 +02:00 [INF] Analytics event sent successfully for API Request - POST /api/Files/upload
+2024-09-24 01:30:23.504 +02:00 [INF] Google Analytics event sent for POST /api/Files/upload with status 500
+2024-09-24 01:30:23.506 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/Files/upload - 500 null text/plain; charset=utf-8 1710.4747ms
+2024-09-24 01:38:09.832 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 01:38:09.946 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 01:38:09.947 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 01:38:09.948 +02:00 [INF] Hosting environment: Development
+2024-09-24 01:38:09.948 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 01:38:10.357 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 01:38:10.531 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 182.0377ms
+2024-09-24 01:38:10.854 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 01:38:11.015 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 161.114ms
+2024-09-24 01:38:50.645 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/Files/upload - multipart/form-data; boundary=----WebKitFormBoundarytOSWofq03FZMT7rs 2096381
+2024-09-24 01:38:50.680 +02:00 [INF] Handling request for POST /api/Files/upload with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 01:38:50.761 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 01:38:50.822 +02:00 [INF] Route matched with {action = "UploadDocument", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadDocument(DocumentUploadRequest) on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 01:39:13.987 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-24 01:39:14.002 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach) in 23167.9294ms
+2024-09-24 01:39:14.005 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 01:39:16.460 +02:00 [INF] Analytics event sent successfully for API Request - POST /api/Files/upload
+2024-09-24 01:39:16.461 +02:00 [INF] Google Analytics event sent for POST /api/Files/upload with status 200
+2024-09-24 01:39:16.470 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/Files/upload - 200 null text/plain; charset=utf-8 25824.8814ms
+2024-09-24 02:14:17.746 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 02:14:18.031 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 02:14:18.035 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 02:14:18.036 +02:00 [INF] Hosting environment: Development
+2024-09-24 02:14:18.036 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 02:14:18.826 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 02:14:19.294 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 472.3988ms
+2024-09-24 02:14:20.044 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 02:14:21.152 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1103.7265ms
+2024-09-24 02:15:03.360 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/Files/upload - multipart/form-data; boundary=----WebKitFormBoundaryaHcITmq8PIBltySA 70075
+2024-09-24 02:15:03.398 +02:00 [INF] Handling request for POST /api/Files/upload with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 02:15:03.476 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 02:15:03.539 +02:00 [INF] Route matched with {action = "UploadDocument", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadDocument(DocumentUploadRequest) on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 02:15:10.349 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-24 02:15:10.355 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach) in 6810.7794ms
+2024-09-24 02:15:10.356 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 02:15:11.705 +02:00 [INF] Analytics event sent successfully for API Request - POST /api/Files/upload
+2024-09-24 02:15:11.705 +02:00 [INF] Google Analytics event sent for POST /api/Files/upload with status 200
+2024-09-24 02:15:11.709 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/Files/upload - 200 null text/plain; charset=utf-8 8349.1273ms
+2024-09-24 02:15:48.936 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/FileModeration/unmoderated - null null
+2024-09-24 02:15:48.941 +02:00 [INF] Handling request for GET /api/FileModeration/unmoderated with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 02:15:48.944 +02:00 [INF] Executing endpoint 'DatabaseConnection.Controllers.FileModerationController.GetUnmoderatedFiles (Share2Teach)'
+2024-09-24 02:15:48.952 +02:00 [INF] Route matched with {action = "GetUnmoderatedFiles", controller = "FileModeration"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUnmoderatedFiles() on controller DatabaseConnection.Controllers.FileModerationController (Share2Teach).
+2024-09-24 02:15:48.958 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[DatabaseConnection.DTOs.FileModerationDto, Share2Teach, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-24 02:15:48.984 +02:00 [INF] Executed action DatabaseConnection.Controllers.FileModerationController.GetUnmoderatedFiles (Share2Teach) in 31.3262ms
+2024-09-24 02:15:48.984 +02:00 [INF] Executed endpoint 'DatabaseConnection.Controllers.FileModerationController.GetUnmoderatedFiles (Share2Teach)'
+2024-09-24 02:15:49.189 +02:00 [INF] Analytics event sent successfully for API Request - GET /api/FileModeration/unmoderated
+2024-09-24 02:15:49.189 +02:00 [INF] Google Analytics event sent for GET /api/FileModeration/unmoderated with status 200
+2024-09-24 02:15:49.190 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/FileModeration/unmoderated - 200 null application/json; charset=utf-8 253.5312ms
+2024-09-24 02:18:36.753 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 02:18:36.982 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 02:18:36.988 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 02:18:36.989 +02:00 [INF] Hosting environment: Development
+2024-09-24 02:18:36.989 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 02:18:37.854 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 02:18:38.403 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 554.5717ms
+2024-09-24 02:18:39.696 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 02:18:40.834 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1139.8229ms
+2024-09-24 02:19:17.222 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Files/unmoderated - null null
+2024-09-24 02:19:17.262 +02:00 [INF] Handling request for GET /api/Files/unmoderated with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 02:19:17.347 +02:00 [INF] Executing endpoint 'YourNamespace.Controllers.FilesController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-24 02:19:17.397 +02:00 [INF] Route matched with {action = "GetUnmoderatedDocuments", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUnmoderatedDocuments() on controller YourNamespace.Controllers.FilesController (Share2Teach).
+2024-09-24 02:19:19.096 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Document_Model.Models.Documents, Share2Teach, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-24 02:19:19.184 +02:00 [INF] Executed action YourNamespace.Controllers.FilesController.GetUnmoderatedDocuments (Share2Teach) in 1780.6525ms
+2024-09-24 02:19:19.185 +02:00 [INF] Executed endpoint 'YourNamespace.Controllers.FilesController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-24 02:19:20.432 +02:00 [INF] Analytics event sent successfully for API Request - GET /api/Files/unmoderated
+2024-09-24 02:19:20.433 +02:00 [INF] Google Analytics event sent for GET /api/Files/unmoderated with status 200
+2024-09-24 02:19:20.436 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Files/unmoderated - 200 null application/json; charset=utf-8 3213.7893ms
+2024-09-24 02:24:16.229 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 02:24:16.780 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 02:24:16.785 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 02:24:16.787 +02:00 [INF] Hosting environment: Development
+2024-09-24 02:24:16.787 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 02:24:20.879 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 02:24:21.379 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 509.413ms
+2024-09-24 02:24:22.087 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 02:24:22.762 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 674.9567ms
+2024-09-24 02:32:53.693 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 02:32:53.791 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 02:32:53.792 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 02:32:53.792 +02:00 [INF] Hosting environment: Development
+2024-09-24 02:32:53.792 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 02:32:54.331 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 02:32:54.579 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 249.6118ms
+2024-09-24 02:32:55.027 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 02:32:56.557 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1528.783ms
+2024-09-24 02:33:06.057 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - null null
+2024-09-24 02:33:06.090 +02:00 [INF] Handling request for GET /api/Moderation/unmoderated with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 02:33:06.170 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-24 02:33:06.224 +02:00 [INF] Route matched with {action = "GetUnmoderatedDocuments", controller = "Moderation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUnmoderatedDocuments() on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-24 02:33:08.060 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Document_Model.Models.Documents, Share2Teach, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-24 02:33:08.336 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach) in 2104.4401ms
+2024-09-24 02:33:08.337 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-24 02:33:09.742 +02:00 [INF] Analytics event sent successfully for API Request - GET /api/Moderation/unmoderated
+2024-09-24 02:33:09.743 +02:00 [INF] Google Analytics event sent for GET /api/Moderation/unmoderated with status 200
+2024-09-24 02:33:09.748 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - 200 null application/json; charset=utf-8 3691.3866ms
+2024-09-24 02:34:36.894 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 02:34:36.981 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 02:34:36.984 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 02:34:36.985 +02:00 [INF] Hosting environment: Development
+2024-09-24 02:34:36.985 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 02:34:37.346 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 02:34:37.516 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 171.239ms
+2024-09-24 02:34:37.705 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 02:34:37.874 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 168.5466ms
+2024-09-24 02:34:50.976 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - null null
+2024-09-24 02:34:51.009 +02:00 [INF] Handling request for GET /api/Moderation/unmoderated with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 02:34:51.082 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-24 02:34:51.115 +02:00 [INF] Route matched with {action = "GetUnmoderatedDocuments", controller = "Moderation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUnmoderatedDocuments() on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-24 02:34:52.702 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Document_Model.Models.Documents, Share2Teach, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-24 02:34:52.765 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach) in 1642.1501ms
+2024-09-24 02:34:52.766 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-24 02:34:54.029 +02:00 [INF] Analytics event sent successfully for API Request - GET /api/Moderation/unmoderated
+2024-09-24 02:34:54.030 +02:00 [INF] Google Analytics event sent for GET /api/Moderation/unmoderated with status 200
+2024-09-24 02:34:54.032 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - 200 null application/json; charset=utf-8 3056.104ms
+2024-09-24 03:17:26.751 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 03:17:26.953 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 03:17:26.955 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 03:17:26.956 +02:00 [INF] Hosting environment: Development
+2024-09-24 03:17:26.956 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 03:17:27.643 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 03:17:28.035 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 392.889ms
+2024-09-24 03:17:28.672 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 03:17:29.336 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 659.8376ms
+2024-09-24 03:17:48.395 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - null null
+2024-09-24 03:17:48.431 +02:00 [INF] Handling request for GET /api/Moderation/unmoderated with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 03:17:48.519 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-24 03:17:48.572 +02:00 [INF] Route matched with {action = "GetUnmoderatedDocuments", controller = "Moderation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUnmoderatedDocuments() on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-24 03:17:51.493 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Document_Model.Models.Documents, Share2Teach, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-24 03:17:51.576 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach) in 2997.164ms
+2024-09-24 03:17:51.578 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-24 03:17:52.996 +02:00 [INF] Analytics event sent successfully for API Request - GET /api/Moderation/unmoderated
+2024-09-24 03:17:52.996 +02:00 [INF] Google Analytics event sent for GET /api/Moderation/unmoderated with status 200
+2024-09-24 03:17:53.000 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - 200 null application/json; charset=utf-8 4604.4119ms
+2024-09-24 03:19:50.658 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f1f3a90440e3538e5fdb4f - application/json 51
+2024-09-24 03:19:50.661 +02:00 [INF] Handling request for PUT /api/Moderation/update/66f1f3a90440e3538e5fdb4f with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 03:19:50.667 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.UpdateModerationStatus (Share2Teach)'
+2024-09-24 03:19:50.681 +02:00 [INF] Route matched with {action = "UpdateModerationStatus", controller = "Moderation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateModerationStatus(System.String, Moderation.Models.UpdateModerationRequest) on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-24 03:19:50.799 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-09-24 03:19:50.800 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.UpdateModerationStatus (Share2Teach) in 118.1685ms
+2024-09-24 03:19:50.800 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.UpdateModerationStatus (Share2Teach)'
+2024-09-24 03:19:51.956 +02:00 [INF] Analytics event sent successfully for API Request - PUT /api/Moderation/update/66f1f3a90440e3538e5fdb4f
+2024-09-24 03:19:51.957 +02:00 [INF] Google Analytics event sent for PUT /api/Moderation/update/66f1f3a90440e3538e5fdb4f with status 500
+2024-09-24 03:19:51.957 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f1f3a90440e3538e5fdb4f - 500 null text/plain; charset=utf-8 1299.2349ms
+2024-09-24 03:43:22.036 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 03:43:22.355 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 03:43:22.360 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 03:43:22.361 +02:00 [INF] Hosting environment: Development
+2024-09-24 03:43:22.361 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 03:43:23.197 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 03:43:23.634 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 441.4575ms
+2024-09-24 03:43:24.388 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 03:43:24.872 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 484.1668ms
+2024-09-24 03:43:38.308 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - null null
+2024-09-24 03:43:38.339 +02:00 [INF] Handling request for GET /api/Moderation/unmoderated with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 03:43:38.425 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-24 03:43:38.472 +02:00 [INF] Route matched with {action = "GetUnmoderatedDocuments", controller = "Moderation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUnmoderatedDocuments() on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-24 03:43:40.263 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Document_Model.Models.Documents, Share2Teach, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-24 03:43:40.355 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach) in 1873.6006ms
+2024-09-24 03:43:40.357 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-24 03:43:41.655 +02:00 [INF] Analytics event sent successfully for API Request - GET /api/Moderation/unmoderated
+2024-09-24 03:43:41.655 +02:00 [INF] Google Analytics event sent for GET /api/Moderation/unmoderated with status 200
+2024-09-24 03:43:41.658 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - 200 null application/json; charset=utf-8 3349.7153ms
+2024-09-24 03:44:44.911 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f1f3a90440e3538e5fdb4f - application/json 51
+2024-09-24 03:44:44.921 +02:00 [INF] Handling request for PUT /api/Moderation/update/66f1f3a90440e3538e5fdb4f with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 03:44:44.927 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.UpdateModerationStatus (Share2Teach)'
+2024-09-24 03:44:44.962 +02:00 [INF] Route matched with {action = "UpdateModerationStatus", controller = "Moderation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateModerationStatus(System.String, Moderation.Models.UpdateModerationRequest) on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-24 03:44:45.333 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-24 03:44:45.334 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.UpdateModerationStatus (Share2Teach) in 372.3009ms
+2024-09-24 03:44:45.335 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.UpdateModerationStatus (Share2Teach)'
+2024-09-24 03:44:45.504 +02:00 [INF] Analytics event sent successfully for API Request - PUT /api/Moderation/update/66f1f3a90440e3538e5fdb4f
+2024-09-24 03:44:45.504 +02:00 [INF] Google Analytics event sent for PUT /api/Moderation/update/66f1f3a90440e3538e5fdb4f with status 200
+2024-09-24 03:44:45.505 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f1f3a90440e3538e5fdb4f - 200 null text/plain; charset=utf-8 594.1044ms
+2024-09-24 03:49:54.774 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f2048dfa0a136e337f3cc9 - application/json 52
+2024-09-24 03:49:54.777 +02:00 [INF] Handling request for PUT /api/Moderation/update/66f2048dfa0a136e337f3cc9 with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 03:49:54.786 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.UpdateModerationStatus (Share2Teach)'
+2024-09-24 03:49:54.787 +02:00 [INF] Route matched with {action = "UpdateModerationStatus", controller = "Moderation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateModerationStatus(System.String, Moderation.Models.UpdateModerationRequest) on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-24 03:49:54.871 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-24 03:49:54.871 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.UpdateModerationStatus (Share2Teach) in 84.3086ms
+2024-09-24 03:49:54.872 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.UpdateModerationStatus (Share2Teach)'
+2024-09-24 03:49:56.064 +02:00 [INF] Analytics event sent successfully for API Request - PUT /api/Moderation/update/66f2048dfa0a136e337f3cc9
+2024-09-24 03:49:56.065 +02:00 [INF] Google Analytics event sent for PUT /api/Moderation/update/66f2048dfa0a136e337f3cc9 with status 200
+2024-09-24 03:49:56.065 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5281/api/Moderation/update/66f2048dfa0a136e337f3cc9 - 200 null text/plain; charset=utf-8 1293.8051ms
+2024-09-24 22:21:19.552 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 22:21:19.708 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 22:21:19.710 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 22:21:19.710 +02:00 [INF] Hosting environment: Development
+2024-09-24 22:21:19.710 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 22:21:20.202 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 22:21:20.377 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 178.2965ms
+2024-09-24 22:21:20.574 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 22:21:20.857 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 283.5584ms
+2024-09-24 22:21:49.280 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Files - null null
+2024-09-24 22:21:49.297 +02:00 [INF] Handling request for GET /api/Files with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 22:21:49.345 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach)'
+2024-09-24 22:21:49.376 +02:00 [INF] Route matched with {action = "GetAllDocuments", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllDocuments() on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 22:21:51.628 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-09-24 22:21:51.632 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach) in 2252.4269ms
+2024-09-24 22:21:51.632 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach)'
+2024-09-24 22:21:52.903 +02:00 [INF] Analytics event sent successfully for API Request - GET /api/Files
+2024-09-24 22:21:52.903 +02:00 [INF] Google Analytics event sent for GET /api/Files with status 500
+2024-09-24 22:21:52.905 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Files - 500 null text/plain; charset=utf-8 3624.5788ms
+2024-09-24 22:22:29.639 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/Files/upload - multipart/form-data; boundary=----WebKitFormBoundaryAiVELGsktocIGLfU 83682
+2024-09-24 22:22:29.642 +02:00 [INF] Handling request for POST /api/Files/upload with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 22:22:29.643 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 22:22:29.659 +02:00 [INF] Route matched with {action = "UploadDocument", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadDocument(DocumentUploadRequest) on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 22:22:30.313 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-09-24 22:22:30.313 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach) in 653.4085ms
+2024-09-24 22:22:30.313 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 22:22:30.484 +02:00 [INF] Analytics event sent successfully for API Request - POST /api/Files/upload
+2024-09-24 22:22:30.484 +02:00 [INF] Google Analytics event sent for POST /api/Files/upload with status 400
+2024-09-24 22:22:30.488 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/Files/upload - 400 null text/plain; charset=utf-8 849.3978ms
+2024-09-24 22:22:43.781 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/Files/upload - multipart/form-data; boundary=----WebKitFormBoundaryTkcMucoo1WLEEDEX 70055
+2024-09-24 22:22:43.782 +02:00 [INF] Handling request for POST /api/Files/upload with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 22:22:43.784 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 22:22:43.785 +02:00 [INF] Route matched with {action = "UploadDocument", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadDocument(DocumentUploadRequest) on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 22:22:47.063 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-24 22:22:47.064 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach) in 3278.6182ms
+2024-09-24 22:22:47.064 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 22:22:47.246 +02:00 [INF] Analytics event sent successfully for API Request - POST /api/Files/upload
+2024-09-24 22:22:47.246 +02:00 [INF] Google Analytics event sent for POST /api/Files/upload with status 200
+2024-09-24 22:22:47.247 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/Files/upload - 200 null text/plain; charset=utf-8 3465.29ms
+2024-09-24 22:54:13.337 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 22:54:13.454 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 22:54:13.456 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 22:54:13.456 +02:00 [INF] Hosting environment: Development
+2024-09-24 22:54:13.456 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 22:54:13.820 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 22:54:13.926 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 109.3859ms
+2024-09-24 22:54:14.054 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 22:54:14.181 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 126.773ms
+2024-09-24 22:54:24.742 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Files - null null
+2024-09-24 22:54:24.756 +02:00 [INF] Handling request for GET /api/Files with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 22:54:24.797 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach)'
+2024-09-24 22:54:24.825 +02:00 [INF] Route matched with {action = "GetAllDocuments", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllDocuments() on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 22:54:25.940 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-09-24 22:54:25.944 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach) in 1115.7368ms
+2024-09-24 22:54:25.945 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.GetAllDocuments (Share2Teach)'
+2024-09-24 22:54:27.202 +02:00 [INF] Analytics event sent successfully for API Request - GET /api/Files
+2024-09-24 22:54:27.203 +02:00 [INF] Google Analytics event sent for GET /api/Files with status 500
+2024-09-24 22:54:27.203 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Files - 500 null text/plain; charset=utf-8 2461.1101ms
+2024-09-24 23:01:47.611 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - null null
+2024-09-24 23:01:47.615 +02:00 [INF] Handling request for GET /api/Moderation/unmoderated with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 23:01:47.618 +02:00 [INF] Executing endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-24 23:01:47.623 +02:00 [INF] Route matched with {action = "GetUnmoderatedDocuments", controller = "Moderation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUnmoderatedDocuments() on controller FileModeration.Controllers.ModerationController (Share2Teach).
+2024-09-24 23:01:47.705 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Document_Model.Models.Documents, Share2Teach, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-24 23:01:47.741 +02:00 [INF] Executed action FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach) in 118.1214ms
+2024-09-24 23:01:47.741 +02:00 [INF] Executed endpoint 'FileModeration.Controllers.ModerationController.GetUnmoderatedDocuments (Share2Teach)'
+2024-09-24 23:01:49.026 +02:00 [INF] Analytics event sent successfully for API Request - GET /api/Moderation/unmoderated
+2024-09-24 23:01:49.027 +02:00 [INF] Google Analytics event sent for GET /api/Moderation/unmoderated with status 200
+2024-09-24 23:01:49.027 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/api/Moderation/unmoderated - 200 null application/json; charset=utf-8 1415.7874ms
+2024-09-24 23:12:10.186 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 23:12:10.329 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 23:12:10.330 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 23:12:10.330 +02:00 [INF] Hosting environment: Development
+2024-09-24 23:12:10.331 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 23:12:10.705 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 23:12:10.824 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 123.3231ms
+2024-09-24 23:12:11.060 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 23:12:11.269 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 209.2073ms
+2024-09-24 23:12:56.656 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/Files/upload - multipart/form-data; boundary=----WebKitFormBoundaryqUZABIjpGoGkuzA7 297889
+2024-09-24 23:12:56.676 +02:00 [INF] Handling request for POST /api/Files/upload with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 23:12:56.725 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 23:12:56.766 +02:00 [INF] Route matched with {action = "UploadDocument", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadDocument(DocumentUploadRequest) on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 23:12:57.993 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-24 23:12:57.996 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach) in 1226.0596ms
+2024-09-24 23:12:57.997 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 23:12:59.277 +02:00 [INF] Analytics event sent successfully for API Request - POST /api/Files/upload
+2024-09-24 23:12:59.277 +02:00 [INF] Google Analytics event sent for POST /api/Files/upload with status 200
+2024-09-24 23:12:59.279 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/Files/upload - 200 null text/plain; charset=utf-8 2622.8471ms
+2024-09-24 23:16:35.923 +02:00 [INF] User profile is available. Using 'C:\Users\rp009\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-24 23:16:36.034 +02:00 [INF] Now listening on: http://localhost:5281
+2024-09-24 23:16:36.036 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-24 23:16:36.037 +02:00 [INF] Hosting environment: Development
+2024-09-24 23:16:36.037 +02:00 [INF] Content root path: C:\Users\rp009\OneDrive\Desktop\Share2Teach---Innovation-Station\Share2Teach
+2024-09-24 23:16:36.570 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/index.html - null null
+2024-09-24 23:16:36.766 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/index.html - 200 null text/html;charset=utf-8 204.975ms
+2024-09-24 23:16:37.060 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - null null
+2024-09-24 23:16:37.326 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 265.7821ms
+2024-09-24 23:17:22.318 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5281/api/Files/upload - multipart/form-data; boundary=----WebKitFormBoundaryDXL46x27W13Wxt4x 70065
+2024-09-24 23:17:22.335 +02:00 [INF] Handling request for POST /api/Files/upload with ClientId: ::1-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0
+2024-09-24 23:17:22.374 +02:00 [INF] Executing endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 23:17:22.413 +02:00 [INF] Route matched with {action = "UploadDocument", controller = "Files"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadDocument(DocumentUploadRequest) on controller UploadDocuments.Controllers.FilesController (Share2Teach).
+2024-09-24 23:17:26.228 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-24 23:17:26.236 +02:00 [INF] Executed action UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach) in 3818.7722ms
+2024-09-24 23:17:26.237 +02:00 [INF] Executed endpoint 'UploadDocuments.Controllers.FilesController.UploadDocument (Share2Teach)'
+2024-09-24 23:17:27.518 +02:00 [INF] Analytics event sent successfully for API Request - POST /api/Files/upload
+2024-09-24 23:17:27.518 +02:00 [INF] Google Analytics event sent for POST /api/Files/upload with status 200
+2024-09-24 23:17:27.520 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5281/api/Files/upload - 200 null text/plain; charset=utf-8 5202.285ms
