@@ -1,1 +1,5 @@
-# Information-Technology-Developments-S2T
+Project Description 
+
+Share2Teach is an open educational resource (OER) platform aimed at creating a global community of educators and learners. Built to foster collaboration and self-directed learning, the platform provides features such as secure account creation, file uploading, moderation, tagging, and a powerful search functionality. Users can contribute educational materials, rate resources, and access analytics to monitor engagement, all while ensuring document security with automated watermarks and licensing.
+
+This project extends the Share2Teach platform by integrating enhanced user roles (Admins, Moderators, Educators, and Open Access Users) and a robust backend infrastructure. With a focus on accessibility and scalability, the system is built as a responsive web app supported by secure APIs, SQL-based data storage, and modern authentication methods like JWTs. The platform is a collaborative effort to democratize education by breaking barriers and encouraging global participation.
