@@ -1,0 +1,105 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\OER.css",
+      "PackagePath": "staticwebassets\\OER.css"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\OER.html",
+      "PackagePath": "staticwebassets\\OER.html"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\OER.js",
+      "PackagePath": "staticwebassets\\OER.js"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\Textbook.png",
+      "PackagePath": "staticwebassets\\Textbook.png"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\fileupload.css",
+      "PackagePath": "staticwebassets\\fileupload.css"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\fileupload.html",
+      "PackagePath": "staticwebassets\\fileupload.html"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\fileupload.js",
+      "PackagePath": "staticwebassets\\fileupload.js"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\homepageback.jpeg",
+      "PackagePath": "staticwebassets\\homepageback.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\moderation.css",
+      "PackagePath": "staticwebassets\\moderation.css"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\moderation.html",
+      "PackagePath": "staticwebassets\\moderation.html"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\moderation.js",
+      "PackagePath": "staticwebassets\\moderation.js"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\reporting.css",
+      "PackagePath": "staticwebassets\\reporting.css"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\reporting.html",
+      "PackagePath": "staticwebassets\\reporting.html"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\reporting.js",
+      "PackagePath": "staticwebassets\\reporting.js"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\signup.css",
+      "PackagePath": "staticwebassets\\signup.css"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\signup.html",
+      "PackagePath": "staticwebassets\\signup.html"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\signup.js",
+      "PackagePath": "staticwebassets\\signup.js"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\rp009\\OneDrive\\Desktop\\Share2Teach---Innovation-Station\\Share2Teach\\wwwroot\\subject-view.html",
+      "PackagePath": "staticwebassets\\subject-view.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Share2Teach.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Share2Teach.props",
+      "PackagePath": "build\\Share2Teach.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Share2Teach.props",
+      "PackagePath": "buildMultiTargeting\\Share2Teach.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Share2Teach.props",
+      "PackagePath": "buildTransitive\\Share2Teach.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

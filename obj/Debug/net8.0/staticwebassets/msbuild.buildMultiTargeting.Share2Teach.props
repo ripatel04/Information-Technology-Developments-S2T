@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Share2Teach.props" />
+</Project>
